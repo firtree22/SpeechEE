@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
    
     for index, sten in enumerate(sentence):
-        VOICE = zh_voice_list[random.randint(0, len(zh_voice_list)) - 1]
+        VOICE = zh_voice_list[random.randint(0, len(en_voice_list)) - 1]
         print(index)
         print(sten)
         print(VOICE)
