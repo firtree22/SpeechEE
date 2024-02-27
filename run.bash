@@ -108,7 +108,7 @@ while true; do
   esac
 done
 
-# google/mt5-base -> google_mt5-base
+
 model_name_log=$(echo ${model_name} | sed -s "s/\//_/g")
 
 model_folder=models/CF_${EXP_ID}_${model_name_log}_${decoding_format}_${data_name}_${lr_scheduler}_lr${lr}_ls${label_smoothing}_${batch_size}_wu${warmup_steps}
