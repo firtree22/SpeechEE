@@ -2,7 +2,7 @@
 
 ## SpeechEE: A Novel Benchmark for Speech Event Extraction
 
-## ARR 2024 Submission
+## ACMMM 2024 Submission
 
 
 ## Requirements
