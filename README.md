@@ -17,7 +17,7 @@ Accepted by ACM MM 2024 (Poster)
 
 Event extraction (EE) is a critical direction in the field of information extraction, laying an important foundation for the construction of structured knowledge bases.
 EE from text has received ample research and attention for years, yet there can be numerous real-world applications that require direct information acquisition from speech signals, online meeting minutes, interview summaries, press releases, etc.
-While EE from speech has remained under-explored, this paper fills the gap by pioneering a \textbf{SpeechEE}, defined as detecting the event predicates and arguments from a given audio speech.
+While EE from speech has remained under-explored, this paper fills the gap by pioneering **SpeechEE**, defined as detecting the event predicates and arguments from a given audio speech.
 To benchmark the SpeechEE task, we first construct a large-scale high-quality dataset.
 Based on textual EE datasets under the sentence, document, and dialogue scenarios, we convert texts into speeches through both manual real-person narration and automatic synthesis, empowering the data with diverse scenarios, languages, domains, ambiences, and speaker styles.
 Further, to effectively address the key challenges in the task, we tailor an E2E SpeechEE system based on the encoder-decoder architecture, where a novel Shrinking Unit module and a retrieval-aided decoding mechanism are devised.
